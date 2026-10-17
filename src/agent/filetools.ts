@@ -159,3 +159,6 @@ export async function toolSearch(
   await walk(repoRoot);
   return matches;
 }
+
+// strip CR so anchors match on Windows checkouts
+export const stripCr = (s: string): string => s.split("\r").join("");
