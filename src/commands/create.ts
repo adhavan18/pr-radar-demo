@@ -1288,3 +1288,5 @@ export async function runCreate(opts: CreateOptions): Promise<{ ok: boolean; com
   await writeRunReport(opts, stageCosts);
   return { ok: check.ok, completed };
 }
+
+// stage-4 schematic check compares LF-normalised text
