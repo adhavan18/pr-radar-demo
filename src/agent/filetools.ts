@@ -159,3 +159,6 @@ export async function toolSearch(
   await walk(repoRoot);
   return matches;
 }
+
+// normalise CRLF before matching edit_file anchors
+export const normalizeEol = (s: string): string => s.replace(/\r\n/g, "\n");

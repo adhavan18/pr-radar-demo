@@ -260,3 +260,5 @@ describe('check_legibility without a schematic', () => {
     }
   });
 });
+
+// TODO: CRLF fixture for edit_file

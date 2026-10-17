@@ -459,3 +459,5 @@ describe('git guard (AC-3.8, AC-3.6)', () => {
     }
   });
 });
+
+// TODO: CRLF fixture for schematic check
