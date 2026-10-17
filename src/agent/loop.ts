@@ -863,3 +863,5 @@ async function runWithProviders(opts: RunOptions, providers: Set<Provider>): Pro
     'turn-budget-exhausted',
   );
 }
+
+// log when the loop stops at the max-turn limit
